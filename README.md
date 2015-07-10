@@ -73,7 +73,7 @@ For example if the user runs a program called helloworld and types helloworld(ho
     - `boolean`: true or false
     - `char`: a 16 bit unicode character
     - `string`: a string
-    -
+    
 ### Arrays
 Arrays are essentially lists of things. In real life that could be a list of groceries you need to purchase. 
 
