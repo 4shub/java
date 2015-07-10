@@ -29,7 +29,7 @@ public class helloworld {
   - `helloworld`: the name of your class. It should also be the name of your file.
 
 ## Doing Things
-Let's just make this program say hello world in your console.
+Let's just make this program say hello world in your console:
 
 ```
 public class helloworld {
@@ -47,7 +47,7 @@ public class helloworld {
   - `Sytem.out.println`: is a superclass with subclasses that call the class println. Println will push your string into the console.
 
 #### On String Args[]
-`String` defines what `args[]` is. `args[]` is a variable (string in this case) that arguments can be used in your function.
+`String` defines what `args[]` are. `args[]` is a variable (string in this case) that arguments can be used in your function.
 
 For example if the user runs a program called helloworld and types helloworld(hound). This would spit out `hello world hound` if that program was the code below:
 
