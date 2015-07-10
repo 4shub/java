@@ -79,7 +79,7 @@ Arrays are essentially lists of things. In real life that could be a list of gro
 
 In java arrays are a bit more constrained than lists, to define an variable as an array, you will need to define a primative with []. An array of of strings would written as `string[] animals = {'dog','cat'}` (defining the variabe animals as an array containing the strings `dog` and `cat`).
 
-To get some data out of that array we would do this: `animals[0]`. This would give us `dog`. 
+To get the `dog` string out of that array we would do this: `animals[0]`.
 
 #### Why start at 0 instead of 1?
 In most programming languages counting starts at 0, meaning to get the first object in an array, we need to give [] the input 0.
