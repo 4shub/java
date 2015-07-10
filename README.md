@@ -6,13 +6,13 @@ Feel free to fork and add additional information.
 
 ## Table of Contents
 1. [Environment](#Environment)
-1. [Initialization](#Initialization)
-1. [Doing Things](#Doing_Things)
+1. [Setting Up](#Setting-Up)
+1. [Doing Things](#doing-things)
 
 ## Environment
 There are many IDEs for Java development. The two most popular IDEs are [Eclipse](http://www.eclipse.org/) and [Netbeans](https://netbeans.org/). **If you are developing for android, please check out [Android Studio](https://developer.android.com/tools/studio/index.html) too.**
 
-## Initialization
+## Setting-Up
 To start a simple project, navigate to your IDE's project creation wizard. For the sake of simplicty, give it the name `helloworld` and name your first project file `helloworld.java`
 
 Once created, your programming environment should either give you the following or a blank space. (If you do get a blank environment, paste the following code down)
