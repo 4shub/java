@@ -75,9 +75,11 @@ For example if the user runs a program called helloworld and types helloworld(ho
     - `string`: a string
     
 ### Arrays
-Arrays in java are constructed similar to how variables are defined. An array of of strings would be `string[] array = {'dog','cat'}` (which is an array of `dog` and `cat`).
+Arrays are essentially lists of things. In real life that could be a list of groceries you need to purchase. 
 
-To call an array we would do this: `array[0]`, which would give us `dog`.
+In java arrays are a bit more constrained than lists, to define an variable as an array, you will need to define a primative with []. An array of of strings would written as `string[] animals = {'dog','cat'}` (defining the variabe animals as an array containing the strings `dog` and `cat`).
+
+To get some data out of that array we would do this: `animals[0]`. This would give us `dog`. 
 
 #### Why start at 0 instead of 1?
 In most programming languages counting starts at 0, meaning to get the first object in an array, we need to give [] the input 0.
