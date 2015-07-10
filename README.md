@@ -62,15 +62,23 @@ For example if the user runs a program called helloworld and types helloworld(ho
   When defining a variable, you must add a primative type. (`boolean result = true;`)
 
   - Integers (with min/man values of each)
-    - `byte` (-128/127)
-    - `short` (-32,768/32,768)
-    - `int` (-2^31/(2^31 - 1))
-    - `long` (-2^63/(2^63 -1))
+    - `byte` (-128 / 127)
+    - `short` (-32,768 / 32,768)
+    - `int` (-2^31 / (2^31 - 1))
+    - `long` (-2^63 / (2^63 -1))
   - Floating Points
-    - `float` (32 bit)
-    - `double` (64 bit)
+    - `float` (32 bit representation)
+    - `double` (64 bit representation)
   - Others
     - `boolean`: true or false
     - `char`: a 16 bit unicode character
     - `string`: a string
     
+### Arrays
+Arrays in java are constructed similar to how variables are defined. An array of of strings would be `string[] array = {'dog','cat'}` (which is an array of `dog` and `cat`).
+
+To call an array we would do this: `array[0]`, which would give us `dog`.
+
+#### Why start at 0 instead of 1?
+In most programming languages counting starts at 0, meaning to get the first object in an array, we need to give [] the input 0.
+
