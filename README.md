@@ -6,8 +6,8 @@ Feel free to fork and add additional information.
 
 ## Table of Contents
 1. [Environment](#Environment)
-1. [Setting Up](#Setting-Up)
-1. [Doing Things](#doing-things)
+1. [Starting off your program](#Setting-Up)
+1. [Giving your program life](#doing-things)
 
 ## Environment
 There are many IDEs for Java development. The two most popular IDEs are [Eclipse](http://www.eclipse.org/) and [Netbeans](https://netbeans.org/). **If you are developing for android, please check out [Android Studio](https://developer.android.com/tools/studio/index.html) too.**
