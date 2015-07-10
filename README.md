@@ -85,7 +85,7 @@ To get the `dog` string out of that array we would do this: `animals[0]`.
 In most programming languages counting starts at 0, meaning to get the first object in an array, we need to give [] the input 0.
 
 ### Classes
-Classes are the objects of Java. They allow you perform actions within your Java program. They can be used modularly and can contain classes beneath them. Classes can act as containers for strings, equations, integers, and pretty much anything else in Java.
+Classes are the containers of Java. They contain the code that allow you perform actions within your Java program. Classes can act as containers for strings, equations, integers, and pretty much anything else in Java. Take the following as an example.
 
 ```
 public class rectangle {
@@ -103,4 +103,4 @@ public class rectangle {
 }
 ```
 
-In this case, you can access getArea() by typing `rectangle.getArea()`
+This class, `rectangle` contains a few items within it. If we want to access something within a class, such as getArea(), we can type `rectangle.getArea()`
