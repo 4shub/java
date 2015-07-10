@@ -43,6 +43,7 @@ public class helloworld {
   - `void` - means that the method has no return value. This can be interchanged with something like `int` (which returns an integer).
   - `main` - the name of this function. (can be `swaggysunday` if you really wanted it to be)
   - `String Args[]` - See Below
+  - `Sytem.out.println` is a superclass with subclasses that call the class println. Println will push your string into the console.
 
 #### On String Args[]
 `String` defines what `args[]` is. `args[]` is a variable (string in this case) that arguments can be used in your function.
