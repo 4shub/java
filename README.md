@@ -8,7 +8,7 @@ Feel free to fork and add additional information.
 1. [Environment](#Environment)
 1. [Starting off your program](#Setting-Up)
 1. [Giving your program life](#doing-things)
-1. [String, Int, and Others](#types)
+1. [Java Types](#types)
 
 ## Environment
 There are many IDEs for Java development. The two most popular IDEs are [Eclipse](http://www.eclipse.org/) and [Netbeans](https://netbeans.org/). **If you are developing for android, please check out [Android Studio](https://developer.android.com/tools/studio/index.html) too.**
@@ -73,7 +73,7 @@ For example if the user runs a program called helloworld and types helloworld(ho
     - `boolean`: true or false
     - `char`: a 16 bit unicode character
     - `string`: a string
-    
+    -
 ### Arrays
 Arrays are essentially lists of things. In real life that could be a list of groceries you need to purchase. 
 
@@ -84,3 +84,23 @@ To get the `dog` string out of that array we would do this: `animals[0]`.
 #### Why start at 0 instead of 1?
 In most programming languages counting starts at 0, meaning to get the first object in an array, we need to give [] the input 0.
 
+### Classes
+Classes are the objects of Java. They allow you perform actions within your Java program. They can be used modularly and can contain classes beneath them. Classes can act as containers for strings, equations, integers, and pretty much anything else in Java.
+
+```
+public class rectangle {
+    public int x = 0;
+    public int y = 0;
+    //constructor
+    public rectangle(int a, int b) {
+        x = a;
+        y = b;
+    }
+    
+    public int getArea() {
+        return x * y;
+    }
+}
+```
+
+In this case, you can access getArea() by typing `rectangle.getArea()`
