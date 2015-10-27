@@ -103,4 +103,4 @@ public class rectangle {
 }
 ```
 
-This class, `rectangle` contains a few items within it. If we want to access something within a class, such as getArea(), we can type `rectangle.getArea()`
+This class, `rectangle` contains a few containers within it. If we want to access something within a class, such as getArea(), we can type `rectangle.getArea()`
